@@ -1,0 +1,31 @@
+.mainSquare{
+    width: 100%;
+    min-height: 80vh;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen{
+    background-color: grey;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageBook{
+
+  object-fit: cover ;
+}
+.Columna{
+  min-height: 80vh;
+  min-width: auto;
+  /*Padding 0 at all sides**/
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+
+  /*Margin 0 at all sides**/
+  margin: 0 !important;
+}
